@@ -1,12 +1,12 @@
 import React from "react";
-import fullstack from "../Assets/full stack img.jpg";
+import bannerimg from "../Assets/Bannerimg.jpg";
 
 function Header() {
   return (
     <>
       {/* Navbar */}
-      <nav className="navbar bg-dark sticky-top">
-        <div className="container d-flex justify-content-between align-items-center">
+      <nav className="navbar bg-black sticky-top">
+        <div className="container d-flex  align-items-center ">
           <a className="navbar-brand fw-bold text-white" href="#hero">
             Portfolio
           </a>
@@ -30,15 +30,12 @@ function Header() {
         className="portfolio-hero text-center d-flex flex-column align-items-center justify-content-center"
       >
         <img
-          src={fullstack}
+          src={bannerimg}
           alt="Full Stack Developer"
-          className="img-fluid rounded hero-img mb-5"
+          className="img-fluid rounded hero-img "
           style={{ width: "100%", height: "400px", objectFit: "cover" }}
         />
-        <h1 className="fw-bold text-black">RIYAS KHAN</h1>
-        <h5 className="lead fw-bold text-black">
-          Full Stack Developer | React, Java, Spring Boot
-        </h5>
+        
       </header>
     </>
   );

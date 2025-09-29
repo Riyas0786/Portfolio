@@ -1,9 +1,18 @@
 /* Portfolio.css - Minimal Flat Version */
 
 /* Page background */
+.fixedbackground{
+  background-image: url('..//src/Assets/footer\ img.png');
+     background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 300px;
+  
+}
 .portfolio-root {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: #fff; /* plain white */
+  background: #000000; /* plain white */
   min-height: 100vh;
   color: #000;
   margin: 0;
@@ -12,9 +21,7 @@
 /* Header / Hero */
 .portfolio-hero {
   background: #f8f8f8; /* light gray */
-  padding: 64px 20px;
   color: #000;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -65,17 +72,6 @@
   background: #fafafa;
 }
 
-
-
-
-/* Contact */
-#contact {
-  padding: 40px 20px;
-  background: #eee;
-  color: #000;
-  margin-top: 20px;
-}
-
 /* Footer */
 footer.portfolio-footer {
   background: #111;
@@ -101,18 +97,38 @@ footer.portfolio-footer {
   color: blue;
 
 }
+body, html {
+  overflow-x: hidden;
+
+}
+
+/* Make carousel images fully responsive */
+.carousel-item img {
+  width: 100% !important;
+  height: auto !important;
+  max-height: 300px; /* adjust for mobile view */
+  object-fit: contain;
+}
 
 @media (max-width: 768px) {
   .portfolio-hero .hero-img {
     width: 100px;
     height: 100px;
   }
+
   .navlinks{
     top: 70px;
     gap: 25px;
-
     list-style: none;
     position: absolute;
     display: flex;
+  }
+
+  .project-card {
+    width: 100% !important;
+    margin: 0 auto;
+  }
+  #projects .w-75 {
+    width: 100% !important;
   }
 }
