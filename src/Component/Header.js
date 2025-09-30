@@ -1,5 +1,5 @@
 import React from "react";
-import bannerimg from '../assets/bannerimg.jpg';
+import bannerimg from '../Assets/bannerimg.jpg';
 
 function Header() {
   return (

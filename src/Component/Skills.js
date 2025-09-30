@@ -1,8 +1,8 @@
 import React from 'react';
-import frontendimg from "../assets/frontendimg.jpg";
-import javaimg from "../assets/Javaimg.webp";
-import mysqlimg from "../assets/mysql.png";
-import gitimg from "../assets/git.png";
+import frontendimg from "../Assets/frontendimg.jpg";
+import javaimg from "../Assets/Javaimg.webp";
+import mysqlimg from "../Assets/mysql.png";
+import gitimg from "../Assets/git.png";
 import { motion } from "framer-motion";
 
 function Skills() {
