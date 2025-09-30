@@ -9,7 +9,7 @@ function Portfolio() {
       
       
       {/* Contact */}
-      <section className=" fixedbackground text-center" >
+      <section className=" fixedbackground2 text-center" >
         <h2 id='contact'className="mb-3 text-white" >Contact Me</h2>
         <h5 className="text-white">
           <i className="bi bi-envelope-fill fs-3"></i>{" "}
@@ -19,10 +19,10 @@ function Portfolio() {
         </h5>
 
         <button
-          className="btn btn-dark my-3 d-block mt-5 mx-auto fs-5"
+          className="btn btn-light my-3 d-block mt-5 mx-auto fs-5"
           onClick={() => (window.location.href = "tel:+9159658882")}
         >
-         📞 Call: 9159658882
+         📞  9159658882
         </button>
 
         <div className="mt-5">
@@ -30,7 +30,7 @@ function Portfolio() {
             href="https://github.com/riyas0786"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn btn-dark fs-5 me-2"
+            className="btn btn-dark fs-6 me-2"
           >
             <i className="bi bi-github"></i> GitHub
           </a>
@@ -39,12 +39,12 @@ function Portfolio() {
             href="https://www.linkedin.com/in/riyas-khan-3b6939370"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn btn-primary fs-5 text-white me-2"
+            className="btn btn-primary fs-6 text-white me-2"
           >
             <i className="bi bi-linkedin"></i> LinkedIn
           </a>
 
-          <a href="/RiyasKhanCV.pdf" download className="btn btn-success fs-5">
+          <a href="/RiyasKhanCV.pdf" download className="btn btn-success fs-6">
             <i className="bi bi-download"></i> Download CV
           </a>
         </div>

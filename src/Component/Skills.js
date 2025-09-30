@@ -16,7 +16,7 @@ function Skills() {
         <div className="row align-items-center mb-5 ">
           <div className="col-lg-7 d-lg-block text-end pe-4">
             <h1 className="fw-bold text-start text-primary">FRONTEND</h1>
-            <h4 className="text-muted text-start">
+            <h4 className="text-white text-start">
               I specialize in designing modern, responsive interfaces that adapt
               seamlessly across devices. My frontend approach emphasizes both
               performance and accessibility, ensuring that every user enjoys a
@@ -39,7 +39,7 @@ function Skills() {
         {/* Backend */}
         <div className="row align-items-center mb-5">
           <motion.div
-            className="col-lg-5 bg-white rounded shadow"
+            className="col-lg-5 bg-white rounded shadow p-2"
             initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
@@ -51,7 +51,7 @@ function Skills() {
 
           <div className="col-lg-7  d-lg-block ps-4">
             <h1 className="fw-bold text-primary">BACKEND</h1>
-            <h4 className="text-muted text-start">
+            <h4 className="text-white text-start">
               On the backend, I focus on creating robust and scalable APIs that
               can handle real-world traffic. My work ensures that applications
               are not only functional but also secure, reliable, and easy to
@@ -64,7 +64,7 @@ function Skills() {
         <div className="row align-items-center mb-5">
           <div className="col-lg-7  d-lg-block text-end pe-4">
             <h1 className="fw-bold text-start text-primary">DATABASE</h1>
-            <h4 className="text-muted text-start">
+            <h4 className="text-white text-start">
               Managing data efficiently is at the core of my development
               practice. I work on optimizing queries, designing logical schemas,
               and ensuring that databases scale gracefully as applications grow
@@ -73,7 +73,7 @@ function Skills() {
           </div>
 
           <motion.div
-            className="col-lg-5 bg-white rounded shadow"
+            className="col-lg-5 bg-white rounded shadow "
             initial={{ opacity: 0, x: 100 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
@@ -81,11 +81,11 @@ function Skills() {
             <img
               src={mysqlimg}
               alt="Database"
-              className="img-fluid mb-3"
+              className="img-fluid mb-3 d-flex mx-auto"
               width={250}
             />
-            <h4>Database</h4>
-            <p>MySQL, Query Optimization</p>
+            <h3>Database</h3>
+            <h5>MySQL, Query Optimization</h5>
           </motion.div>
         </div>
 
@@ -104,7 +104,7 @@ function Skills() {
 
           <div className="col-lg-7  d-lg-block ps-4">
             <h1 className="fw-bold text-primary">TOOLS</h1>
-            <h4 className="text-muted">
+            <h4 className="text-white">
               I use Git and GitHub extensively for version control, ensuring
               smooth collaboration and project tracking. Alongside, I am
               familiar with deployment pipelines that help automate and simplify
