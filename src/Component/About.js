@@ -4,7 +4,7 @@ function About() {
   return (
     <>
       {/* About */}
-      <section id="about" className="container bg-light rounded shadow text-center  " >
+      <section id="about" className="container bg-light rounded shadow gtext-center  " >
         <h2 className="section-heading text-black">About Me</h2>
         <h5 className="text-black text-start">
           <strong className='text-primary'>I'm Riyaskhan Full stack developer </strong><br/>
