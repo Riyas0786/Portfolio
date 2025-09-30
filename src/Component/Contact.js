@@ -10,7 +10,7 @@ function Portfolio() {
       
       {/* Contact */}
       <section className=" fixedbackground2 text-center" >
-        <h2 id='contact'className="mb-3 text-white" >Contact Me</h2>
+        <h2 id='contact'className="mb-3 text-primary" >Contact Me</h2>
         <h5 className="text-white">
           <i className="bi bi-envelope-fill fs-3"></i>{" "}
           <a href="mailto:riyaskhanm2001@gmail.com"
@@ -30,7 +30,7 @@ function Portfolio() {
             href="https://github.com/riyas0786"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn btn-dark fs-6 me-2"
+            className="btn btn-dark  me-2"
           >
             <i className="bi bi-github"></i> GitHub
           </a>
@@ -39,17 +39,15 @@ function Portfolio() {
             href="https://www.linkedin.com/in/riyas-khan-3b6939370"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn btn-primary fs-6 text-white me-2"
+            className="btn btn-primary  text-white me-2"
           >
             <i className="bi bi-linkedin"></i> LinkedIn
           </a>
 
-          <a href="/RiyasKhanCV.pdf" download className="btn btn-success fs-6">
+          <a href="/RiyasKhanCV.pdf" download className="btn btn-success my-2 me-2">
             <i className="bi bi-download"></i> Download CV
           </a>
         </div>
-        <h6 className="text-center text-white ">
-        ©  Riyas Khan. All rights reserved.</h6>
       </section>
 
     </div>

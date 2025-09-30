@@ -11,14 +11,14 @@ function Project() {
   return (
     <>
       {/* Projects */}
-      <section id="projects" className="container-fluid my-5">
+      <section id="projects" className="container-fluid my-5 bg-white">
         <h2 className="text-center mb-5 fw-bold section-heading mx-auto bg-white w-25 text-warning">
           PROJECTS
         </h2>
 
         <div className="row justify-content-center">
         <motion.div
-  className="col-12 rounded shadow w-75 fs-3 p-3"
+  className="col-12 rounded shadow bg-light w-75 fs-3 p-3"
   initial={{ opacity: 0, y: 50 }}
   whileInView={{ opacity: 1, y: 0 }}
   transition={{ duration: 0.6 }}

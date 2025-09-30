@@ -1,16 +1,10 @@
 /* Portfolio.css - Minimal Flat Version */
 
 /* Page background */
-.fixedbackground{
-  background-image: url('..//src/Assets/bannerimg.png');
-      min-height: 60vh;
-  background-attachment: scroll;
-  display: flex;
-  flex-direction: column;
-}
+
 
     .fixedbackground2{
-     background-image: url('..//src/Assets/footer\ img.png');
+     background-image: url('..//src/Assets/footerimg.png');
      background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -71,7 +65,7 @@
 /* Skills */
 #skills {
   padding: 40px 20px;
-  background: #000000e3;
+  background: #000000;
   margin-bottom: 20px;
 }
 
@@ -79,7 +73,7 @@
 /* Projectsyyyyy */
 #projects {
   padding: 40px 20px;
-  background: #fafafa;
+  background: #f8f8f8;
 }
 
 /* Footer */
