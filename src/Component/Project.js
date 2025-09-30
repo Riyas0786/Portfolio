@@ -1,8 +1,8 @@
 import React from "react";
-import projectimg from "../Assets/project.png";
-import cartimg from "../Assets/Project/cart.png";
-import accountimg from "../Assets/Project/account.png";
-import menuimg from "../Assets/Project/Menu.png";
+import projectimg from "../assets/project.png";
+import cartimg from "../assets/Project/cart.png";
+import accountimg from "../assets/Project/account.png";
+import menuimg from "../assets/Project/Menu.png";
 import { motion } from "framer-motion";
 import { Carousel } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";  
