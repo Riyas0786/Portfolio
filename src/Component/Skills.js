@@ -1,6 +1,6 @@
 import React from 'react';
-import frontendimg from "../assets/frontend img.jpg";
-import javaimg from "../assets/Java img.webp";
+import frontendimg from "../assets/frontendimg.jpg";
+import javaimg from "../assets/Javaimg.webp";
 import mysqlimg from "../assets/mysql.png";
 import gitimg from "../assets/git.png";
 import { motion } from "framer-motion";
