@@ -12,7 +12,7 @@ function Project() {
     <>
       {/* Projects */}
       <section id="projects" className="container-fluid my-5 bg-white">
-        <h2 className="text-center mb-5 fw-bold section-heading mx-auto bg-white w-25 text-warning">
+        <h2 className="text-center mb-5 fw-bold section-heading mx-auto bg-white  text-warning">
           PROJECTS
         </h2>
 
@@ -54,20 +54,19 @@ function Project() {
             </Carousel>
 
 
-            <h5 className="mt-3 fw-bold fs-2">PROJECT SHOWCASE</h5>
-            <p>
-              My projects reflect hands-on problem-solving with real-world
-              challenges. They demonstrate my ability to connect frontend and
-              backend systems while keeping user needs in mind. Each project is
-              a step towards building better, scalable applications.
+            <h5 className="mt-3 fw-bold text-warning fs-2">PROJECT SHOWCASE</h5>
+            <p>I did my academic project on food booking web application name <strong>BURGER HOUSE</strong>
+            It had a <strong>menu,add to cart,contact,account all essential requirements</strong>
+            and deployed to github and vercel with a live server.I attached website link below kindly visit the website.
+             
             </p>
             <h5>
               <a
                 href="https://burgerhouse-iota.vercel.app/"
                 
-              >
+              ><i className="bi bi-link-45deg fs-3 ">
                 View live project
-              </a>
+              </i></a>
             </h5>
           </motion.div>
         </div>

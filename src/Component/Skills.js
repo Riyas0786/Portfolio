@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import frontendimg from "../Assets/frontend img.jpg";
 import javaimg from "../Assets/Java img.webp";
 import mysqlimg from "../Assets/mysql.png";
@@ -8,13 +8,16 @@ import { motion } from "framer-motion";
 function Skills() {
   return (
     <>
-        {/* Skills */}
+      {/* Skills */}
       <section id="skills" className="container-fluid my-5">
-    <h2 className="text-center mb-5 section-heading text-primary bg-light w-25 mx-auto">TOP SKILLS</h2>
+        <h2 className="text-center mb-5 fw-bold rounded  text-primary bg-light w-25 mx-auto">
+          TOP SKILLS
+        </h2>
 
         {/* Frontend */}
-        <div className="row align-items-center mb-5 ">
-          <div className="col-lg-7 d-lg-block text-end pe-4">
+        <div className="row align-items-center mb-5">
+          {/* Text */}
+          <div className="col-12 col-lg-7 text-end pe-lg-4 mb-3 mb-lg-0">
             <h1 className="fw-bold text-start text-primary">FRONTEND</h1>
             <h4 className="text-white text-start">
               I specialize in designing modern, responsive interfaces that adapt
@@ -24,13 +27,20 @@ function Skills() {
             </h4>
           </div>
 
+          {/* Card */}
           <motion.div
-            className="col-lg-5 bg-white rounded shadow"
+            className="col-12 col-lg-5 bg-white rounded shadow mx-auto text-center p-3"
+            style={{ maxWidth: "350px" }}
             initial={{ opacity: 0, x: 100 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <img src={frontendimg} alt="Frontend" className="img-fluid mb-3 my-2" />
+            <img
+              src={frontendimg}
+              alt="Frontend"
+              className="img-fluid mb-3"
+              style={{ height: "180px", objectFit: "contain" }}
+            />
             <h4>Frontend</h4>
             <p>HTML, CSS, JavaScript, React</p>
           </motion.div>
@@ -38,18 +48,26 @@ function Skills() {
 
         {/* Backend */}
         <div className="row align-items-center mb-5">
+          {/* Card */}
           <motion.div
-            className="col-lg-5 bg-white rounded shadow p-2"
+            className="col-12 col-lg-5 bg-white rounded shadow mx-auto text-center p-3 mb-3 mb-lg-0"
+            style={{ maxWidth: "350px" }}
             initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <img src={javaimg} alt="Backend" className="img-fluid mb-3" />
+            <img
+              src={javaimg}
+              alt="Backend"
+              className="img-fluid mb-3"
+              style={{ height: "180px", objectFit: "contain" }}
+            />
             <h4>Backend</h4>
             <p>Java, Spring Boot, REST APIs</p>
           </motion.div>
 
-          <div className="col-lg-7  d-lg-block ps-4">
+          {/* Text */}
+          <div className="col-12 col-lg-7 ps-lg-4">
             <h1 className="fw-bold text-primary">BACKEND</h1>
             <h4 className="text-white text-start">
               On the backend, I focus on creating robust and scalable APIs that
@@ -62,7 +80,8 @@ function Skills() {
 
         {/* Database */}
         <div className="row align-items-center mb-5">
-          <div className="col-lg-7  d-lg-block text-end pe-4">
+          {/* Text */}
+          <div className="col-12 col-lg-7 text-end pe-lg-4 mb-3 mb-lg-0">
             <h1 className="fw-bold text-start text-primary">DATABASE</h1>
             <h4 className="text-white text-start">
               Managing data efficiently is at the core of my development
@@ -72,8 +91,10 @@ function Skills() {
             </h4>
           </div>
 
+          {/* Card */}
           <motion.div
-            className="col-lg-5 bg-white rounded shadow "
+            className="col-12 col-lg-5 bg-white rounded shadow mx-auto text-center p-3"
+            style={{ maxWidth: "350px" }}
             initial={{ opacity: 0, x: 100 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
@@ -81,28 +102,36 @@ function Skills() {
             <img
               src={mysqlimg}
               alt="Database"
-              className="img-fluid mb-3 d-flex mx-auto"
-              width={250}
+              className="img-fluid mb-3"
+              style={{ height: "180px", objectFit: "contain" }}
             />
-            <h3>Database</h3>
-            <h5>MySQL, Query Optimization</h5>
+            <h4>Database</h4>
+            <p>MySQL, Query Optimization</p>
           </motion.div>
         </div>
 
         {/* Tools */}
         <div className="row align-items-center mb-5">
+          {/* Card */}
           <motion.div
-            className="col-lg-5 rounded shadow bg-white"
+            className="col-12 col-lg-5 bg-white rounded shadow mx-auto text-center p-3 mb-3 mb-lg-0"
+            style={{ maxWidth: "350px" }}
             initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <img src={gitimg} alt="Tools" className="img-fluid p-3 mb-3" />
+            <img
+              src={gitimg}
+              alt="Tools"
+              className="img-fluid mb-3"
+              style={{ height: "180px", objectFit: "contain" }}
+            />
             <h4>Tools</h4>
             <p>Git, GitHub, Deployment</p>
           </motion.div>
 
-          <div className="col-lg-7  d-lg-block ps-4">
+          {/* Text */}
+          <div className="col-12 col-lg-7 ps-lg-4">
             <h1 className="fw-bold text-primary">TOOLS</h1>
             <h4 className="text-white">
               I use Git and GitHub extensively for version control, ensuring
@@ -113,10 +142,8 @@ function Skills() {
           </div>
         </div>
       </section>
-
-             
     </>
-  )
+  );
 }
 
-export default Skills
+export default Skills;
