@@ -4,11 +4,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function Portfolio() {
   return (
     <div>
-      {/* Contact Section */}
+
       <section id="contact" className="container contact-card my-5">
         <h2 className="section-heading">Contact Me</h2>
 
-        {/* Contact Info Cards */}
+
         <div className="d-flex flex-column align-items-center gap-3">
           {/* Email */}
           <div className="contact-card d-flex align-items-center fs-3 gap-2 ">
@@ -32,7 +32,7 @@ function Portfolio() {
           </div>
         </div>
 
-        {/* Social Links */}
+      
         <div className="mt-5 d-flex flex-wrap justify-content-center gap-3">
           <a
             href="https://github.com/riyas0786"

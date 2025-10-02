@@ -66,21 +66,20 @@ function Skills() {
             <p>Java, Spring Boot, REST APIs</p>
           </motion.div>
 
-          {/* Text */}
-          <div className="col-12 col-lg-7 ps-lg-4">
+
+            <div className="col-12 col-lg-7 ps-lg-4">
             <h1 className="fw-bold text-primary">BACKEND</h1>
             <h4 className="text-white text-start">
               On the backend, I focus on creating robust and scalable APIs that
               can handle real-world traffic. My work ensures that applications
-              are not only functional but also secure, reliable, and easy to
+               are not only functional but also secure, reliable, and easy to
               maintain in the long run.
             </h4>
           </div>
         </div>
 
-        {/* Database */}
+
         <div className="row align-items-center mb-5">
-          {/* Text */}
           <div className="col-12 col-lg-7 text-end pe-lg-4 mb-3 mb-lg-0">
             <h1 className="fw-bold text-start text-primary">DATABASE</h1>
             <h4 className="text-white text-start">

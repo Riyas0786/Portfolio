@@ -1,5 +1,5 @@
 import React from "react";
-import bannerimg from '../Assets/bannerimg2.png';
+import bannerimg from '../Assets/bannerimg.png';
 
 function Header() {
   return (
@@ -13,9 +13,9 @@ function Header() {
             alt="bannerimg"
             className="img-fluid w-100 p-2"
             style={{
-              height: "350px",        // adjust height (e.g. 200–300px)
+              height: "350px",        
               objectFit: "cover",
-              borderRadius:'20px'      // ensures image covers area without stretching
+              borderRadius:'20px'      
             }}
           />
 
