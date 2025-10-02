@@ -4,16 +4,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function Portfolio() {
   return (
     <div>
-      {/* Contact */}
-      <section className="fixedbackground2 text-center py-5">
-        <h2 id="contact" className="mb-4 text-success fw-bold">
-          Contact Me
-        </h2>
+      {/* Contact Section */}
+      <section id="contact" className="container contact-card my-5">
+        <h2 className="section-heading">Contact Me</h2>
 
-        {/* Contact Info */}
+        {/* Contact Info Cards */}
         <div className="d-flex flex-column align-items-center gap-3">
           {/* Email */}
-          <h5 className="text-white d-flex align-items-center gap-2">
+          <div className="contact-card d-flex align-items-center fs-3 gap-2 ">
             <i className="bi bi-envelope-fill fs-4 text-warning"></i>
             <a
               href="mailto:riyaskhanm2001@gmail.com"
@@ -21,16 +19,17 @@ function Portfolio() {
             >
               riyaskhanm2001@gmail.com
             </a>
-          </h5>
+          </div>
 
           {/* Phone */}
-          <button
-            className="btn btn-danger fs-5 d-flex align-items-center gap-2"
+          <div
+            className="contact-card d-flex align-items-center justify-content-center gap-2 "
+            style={{ cursor: "pointer" }}
             onClick={() => (window.location.href = "tel:+9159658882")}
           >
-            <i className="bi bi-telephone-fill text-white fs-5"></i>
-            9159658882
-          </button>
+            <i className="bi bi-telephone-fill fs-5 text-primary"></i>
+            <span className="fs-5 text-white">9159658882</span>
+          </div>
         </div>
 
         {/* Social Links */}
@@ -39,7 +38,7 @@ function Portfolio() {
             href="https://github.com/riyas0786"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn btn-dark d-flex align-items-center gap-2"
+            className="btn btn text-white d-flex align-items-center gap-2" style={{backgroundColor:'black'}}
           >
             <i className="bi bi-github fs-5"></i> GitHub
           </a>
@@ -48,7 +47,7 @@ function Portfolio() {
             href="https://www.linkedin.com/in/riyas-khan-3b6939370"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn btn-primary text-white d-flex align-items-center gap-2"
+            className="btn btn text-white d-flex align-items-center gap-2" style={{backgroundColor:'blue'}}
           >
             <i className="bi bi-linkedin fs-5"></i> LinkedIn
           </a>
@@ -58,9 +57,11 @@ function Portfolio() {
             download
             className="btn btn-success d-flex align-items-center gap-2"
           >
-            <i className="bi bi-download fs-5"></i> Download CV
+            <i className="bi bi-download fs-5"></i> Resume
           </a>
         </div>
+
+               
       </section>
     </div>
   );

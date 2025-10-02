@@ -9,8 +9,8 @@ function Skills() {
   return (
     <>
       {/* Skills */}
-      <section id="skills" className="container-fluid my-5">
-        <h2 className="text-center mb-5 fw-bold rounded  text-primary bg-light w-25 mx-auto">
+      <section id="skills" className="container skill-card my-5">
+        <h2 className="text-center mb-5 fw-bold rounded   text-primary bg-light w-50 mx-auto">
           TOP SKILLS
         </h2>
 

@@ -11,14 +11,13 @@ function Project() {
   return (
     <>
       {/* Projects */}
-      <section id="projects" className="container-fluid my-5 bg-white">
-        <h2 className="text-center mb-5 fw-bold section-heading mx-auto bg-white  text-warning">
+      <section id="projects" className="container project-card my-5 ">
+        <h2 className="text-center mb-5 fw-bold section-heading mx-auto rounded  bg-dark w-50 text-warning">
           PROJECTS
         </h2>
 
         <div className="row justify-content-center">
         <motion.div
-  className="col-12 rounded shadow bg-light w-75 fs-3 p-3"
   initial={{ opacity: 0, y: 50 }}
   whileInView={{ opacity: 1, y: 0 }}
   transition={{ duration: 0.6 }}
@@ -55,11 +54,11 @@ function Project() {
 
 
             <h5 className="mt-3 fw-bold text-warning fs-2">PROJECT SHOWCASE</h5>
-            <p>I did my academic project on food booking web application name <strong>BURGER HOUSE</strong>
-            It had a <strong>menu,add to cart,contact,account all essential requirements</strong>
+            <h5 className="text-white">I did my academic project on food booking web application name <strong className="text-warning">BURGER HOUSE</strong>
+            It had a <strong className="text-warning">menu,add to cart,contact,account</strong> all essential requirements
             and deployed to github and vercel with a live server.I attached website link below kindly visit the website.
              
-            </p>
+            </h5>
             <h5>
               <a
                 href="https://burgerhouse-iota.vercel.app/"
