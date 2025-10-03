@@ -39,40 +39,10 @@ html, body {
   color: #ffeaee;
 }
 
-.portfolio-hero {
-  background: rgba(0, 0, 0, 0.4);
-   backdrop-filter: blur(6px);
-  text-align: center;
-    padding: 60px 20px;
-   border-radius: 12px;
-   max-width: 1000px;
-  margin: 40px auto;
-}
 
-.portfolio-hero .hero-img {
-  width: 140px;
-  height: 140px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 3px solid rgba(255,255,255,0.6);
-}
 
-.portfolio-hero h1 {
-  font-size: 2.5rem;
-  margin-top: 15px;
-  color: #ffeaee;
-}
 
-.portfolio-hero h5 {
-  font-size: 1.2rem;
-  margin-top: 6px;
-  color: #eee;
-}
-
-#about,
-#skills,
-#projects,
-#contact {
+#about{
   background: rgba(0, 0, 0, 0.45);
    backdrop-filter: blur(8px);
    border-radius: 14px;
@@ -82,14 +52,7 @@ html, body {
   box-shadow: 0 6px 14px rgba(0,0,0,0.3);
 }
 
-.section-heading {
-  color: #ffeaee;
-   font-weight: 600;
-  margin-bottom: 25px;
-   text-align: center;
-  font-size: 1.8rem;
-  text-shadow: 1px 1px 6px rgba(0,0,0,0.8);
-}
+
 .project-card,
 .skill-card,
 .contact-card {
@@ -107,41 +70,6 @@ html, body {
 .contact-card:hover {
   transform: translateY(-6px);
 }
-
-
-.project-card img {
-  width: 100%;
-  border-radius: 12px;
-  margin-bottom: 12px;
-}
-
-.project-card h4 {
-  margin-bottom: 8px;
-  color: #ffeaee;
-}
-
-.project-card p {
-  font-size: 0.95rem;
-  color: #ddd;
-}
-
-#contact {
-    text-align: center;
-}
-
-.contact-card h4 {
-    color: #ffeaee;
-  margin-bottom: 10px;
-}
-
-.contact-card p {
-  font-size: 1rem;
-  color: #ddd;
-}
-
-
-
-
 
 
 .carousel-item img {
