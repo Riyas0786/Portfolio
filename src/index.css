@@ -2,7 +2,6 @@ html {
   height: 100%;
   margin: 0;
   padding: 0;
-  width: 100%;
   overflow-x: hidden; 
   font-family: "Poppins", sans-serif;
   color: #000000;
@@ -71,7 +70,6 @@ body::before {
   border-radius: 14px;
   padding: 20px;
   margin: 20px auto;
-  max-width: 1000px;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -82,11 +80,6 @@ body::before {
   transform: translateY(-6px);
   border: 1px solid blue;
   box-shadow: 0 6px 6px 2px rgba(0, 17, 255, 0.384);
-}
-.carousel-img{
-  object-fit: contain;
-  justify-content: center;
-  
 }
 
 @media (max-width: 768px) {
