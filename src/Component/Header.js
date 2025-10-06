@@ -11,11 +11,12 @@ function Header() {
           <img
             src={bannerimg}
             alt="bannerimg"
-            className="img-fluid w-100 p-2"
+            className="img-fluid w-100 p-2 border border-primary"
             style={{
               height: "350px",        
               objectFit: "cover",
-              borderRadius:'20px'      
+              borderRadius:'20px',
+
             }}
           />
 
@@ -23,7 +24,7 @@ function Header() {
             <ul className="nav mx-auto gap-3 flew-nowrap ">
               <li className="nav-item">
                 <a
-                  className="nav-link text-primary fw-bold rounded bg-light shadow pill fs-6 "
+                  className="nav-link border border-primary text-white fw-bold rounded bg-dark shadow pill fs-6 "
                   href="#skills"
                 >
                   SKILLS
@@ -31,7 +32,7 @@ function Header() {
               </li>
               <li className="nav-item">
                 <a
-                  className="nav-link text-warning fw-bold rounded bg-light shadow pill"
+                  className="nav-link border border-primary text-white fw-bold rounded bg-dark shadow pill fs-6"
                   href="#projects"
                 >
                   PROJECTS
@@ -39,7 +40,7 @@ function Header() {
               </li>
               <li className="nav-item">
                 <a
-                  className="nav-link text-danger fw-bold rounded bg-white shadow pill fs-6"
+                  className="nav-link border border-primary text-white fw-bold rounded bg-dark shadow pill fs-6"
                   href="#contact"
                 >
                   CONTACT

@@ -9,8 +9,8 @@ function Skills() {
   return (
     <>
       {/* Skills */}
-      <section id="skills" className="container skill-card my-5">
-        <h2 className="text-center mb-5 fw-bold rounded   text-primary bg-light w-50 mx-auto">
+      <section id="skills" className="container border border-primary skill-card my-5">
+        <h2 className="text-center mb-5 fw-bold rounded   text-warning bg-dark w-50 mx-auto">
           TOP SKILLS
         </h2>
 
@@ -18,7 +18,7 @@ function Skills() {
         <div className="row align-items-center mb-5">
           {/* Text */}
           <div className="col-12 col-lg-7 text-end pe-lg-4 mb-3 mb-lg-0">
-            <h1 className="fw-bold text-start text-primary">FRONTEND</h1>
+            <h1 className="fw-bold text-start text-warning">FRONTEND</h1>
             <h4 className="text-white text-start">
               I specialize in designing modern, responsive interfaces that adapt
               seamlessly across devices. My frontend approach emphasizes both
@@ -41,8 +41,8 @@ function Skills() {
               className="img-fluid mb-3"
               style={{ height: "180px", objectFit: "contain" }}
             />
-            <h4>Frontend</h4>
-            <p>HTML, CSS, JavaScript, React</p>
+            <h4 >Frontend</h4>
+            <p >HTML, CSS, JavaScript,react</p>
           </motion.div>
         </div>
 
@@ -68,7 +68,7 @@ function Skills() {
 
 
             <div className="col-12 col-lg-7 ps-lg-4">
-            <h1 className="fw-bold text-primary">BACKEND</h1>
+            <h1 className="fw-bold text-warning">BACKEND</h1>
             <h4 className="text-white text-start">
               On the backend, I focus on creating robust and scalable APIs that
               can handle real-world traffic. My work ensures that applications
@@ -81,7 +81,7 @@ function Skills() {
 
         <div className="row align-items-center mb-5">
           <div className="col-12 col-lg-7 text-end pe-lg-4 mb-3 mb-lg-0">
-            <h1 className="fw-bold text-start text-primary">DATABASE</h1>
+            <h1 className="fw-bold text-start text-warning">DATABASE</h1>
             <h4 className="text-white text-start">
               Managing data efficiently is at the core of my development
               practice. I work on optimizing queries, designing logical schemas,
@@ -131,7 +131,7 @@ function Skills() {
 
           {/* Text */}
           <div className="col-12 col-lg-7 ps-lg-4">
-            <h1 className="fw-bold text-primary">TOOLS</h1>
+            <h1 className="fw-bold text-warning">TOOLS</h1>
             <h4 className="text-white">
               I use Git and GitHub extensively for version control, ensuring
               smooth collaboration and project tracking. Alongside, I am

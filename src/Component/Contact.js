@@ -5,8 +5,8 @@ function Portfolio() {
   return (
     <div>
 
-      <section id="contact" className="container contact-card my-5">
-        <h2 className="section-heading">Contact Me</h2>
+      <section id="contact" className="container border border-primary contact-card my-5">
+        <h2 className="section-heading text-center text-warning">Contact Me</h2>
 
 
         <div className="d-flex flex-column align-items-center gap-3">
@@ -33,12 +33,12 @@ function Portfolio() {
         </div>
 
       
-        <div className="mt-5 d-flex flex-wrap justify-content-center gap-3">
+        <div className="mt-5 d-flex flex-wrap justify-content-center gap-3 ">
           <a
             href="https://github.com/riyas0786"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn btn text-white d-flex align-items-center gap-2" style={{backgroundColor:'black'}}
+            className="btn btn text-white d-flex align-items-center gap-2 fs-6" style={{backgroundColor:'black'}}
           >
             <i className="bi bi-github fs-5"></i> GitHub
           </a>
