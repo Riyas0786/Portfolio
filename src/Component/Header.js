@@ -21,10 +21,10 @@ function Header() {
           />
 
           <div className="container-fluid mt-2">
-            <ul className="nav mx-auto gap-3 flew-nowrap ">
+            <ul className="nav mx-auto gap-2 flex-nowrap ">
               <li className="nav-item">
                 <a
-                  className="nav-link border border-primary text-white fw-bold rounded bg-dark shadow pill fs-6 "
+                  className="nav-link border border-primary text-white fw-bold rounded bg-black shadow pill fs-6 "
                   href="#skills"
                 >
                   SKILLS
@@ -32,7 +32,7 @@ function Header() {
               </li>
               <li className="nav-item">
                 <a
-                  className="nav-link border border-primary text-white fw-bold rounded bg-dark shadow pill fs-6"
+                  className="nav-link border border-primary text-white fw-bold rounded bg-black shadow pill fs-6"
                   href="#projects"
                 >
                   PROJECTS
@@ -40,7 +40,7 @@ function Header() {
               </li>
               <li className="nav-item">
                 <a
-                  className="nav-link border border-primary text-white fw-bold rounded bg-dark shadow pill fs-6"
+                  className="nav-link border border-primary text-white fw-bold rounded bg-black shadow pill fs-6"
                   href="#contact"
                 >
                   CONTACT

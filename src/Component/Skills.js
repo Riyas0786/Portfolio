@@ -9,7 +9,7 @@ function Skills() {
   return (
     <>
       {/* Skills */}
-      <section id="skills" className="container border border-primary skill-card my-5">
+      <section id="skills" className="container-sm skill-card my-5">
         <h2 className="text-center mb-5 fw-bold rounded   text-warning bg-dark w-50 mx-auto">
           TOP SKILLS
         </h2>

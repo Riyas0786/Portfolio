@@ -11,7 +11,7 @@ function Project() {
   return (
     <>
       {/* Projects */}
-      <section id="projects" className="container border border-primary project-card my-5 ">
+      <section id="projects" className="container  project-card my-5 ">
         <h2 className="text-center mb-5 fw-bold section-heading mx-auto rounded  bg-dark w-50 text-warning">
           PROJECTS
         </h2>

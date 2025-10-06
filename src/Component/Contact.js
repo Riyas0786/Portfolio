@@ -5,7 +5,7 @@ function Portfolio() {
   return (
     <div>
 
-      <section id="contact" className="container border border-primary contact-card my-5">
+      <section id="contact" className="container contact-card my-5">
         <h2 className="section-heading text-center text-warning">Contact Me</h2>
 
 
