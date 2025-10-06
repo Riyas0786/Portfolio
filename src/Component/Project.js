@@ -24,28 +24,28 @@ function Project() {
 >
   <Carousel interval={2500} controls indicators>
               <Carousel.Item>
-                <img src={projectimg} alt="Home Page" className="d-block w-100 img-fluid" />
+                <img src={projectimg} alt="Home Page" className="d-block w-75 img-fluid  rounded-3 mx-auto "  />
                 <div className="carousel-text text-center mt-2">
                   <h5 className="text-warning">Home Page</h5>
                 </div>
               </Carousel.Item>
 
               <Carousel.Item>
-                <img src={menuimg} alt="Menu Page" className="d-block w-100 img-fluid" />
+                <img src={menuimg} alt="Menu Page" className="d-block w-75 img-fluid rounded-3 mx-auto"  />
                 <div className="carousel-text text-center mt-2">
                   <h5 className="text-warning">Menu Page</h5>
                 </div>
               </Carousel.Item>
 
               <Carousel.Item>
-                <img src={accountimg} alt="Account Page" className="d-block w-100 img-fluid" />
+                <img src={accountimg} alt="Account Page" className="d-block w-75 img-fluid rounded-3 mx-auto"/>
                 <div className="carousel-text text-center mt-2">
                   <h5 className="text-warning">Account Page</h5>
                 </div>
               </Carousel.Item>
 
               <Carousel.Item>
-                <img src={cartimg} alt="Cart Page" className="d-block w-100 img-fluid" />
+                <img src={cartimg} alt="Cart Page" className="d-block w-75 img-fluid rounded-3 mx-auto" />
                 <div className="carousel-text text-center mt-2">
                   <h5 className="text-warning">Cart Page</h5>
                 </div>
@@ -54,11 +54,11 @@ function Project() {
 
 
             <h5 className="mt-3 fw-bold text-warning fs-2">PROJECT SHOWCASE</h5>
-            <h5 className="text-white">I did my academic project on food booking web application name <strong className="text-warning">BURGER HOUSE</strong>
+            <h6 className="text-white">I did my academic project on food booking web application name <strong className="text-warning">BURGER HOUSE</strong>
             It had a <strong className="text-warning">menu,add to cart,contact,account</strong> all essential requirements
             and deployed to github and vercel with a live server.I attached website link below kindly visit the website.
              
-            </h5>
+            </h6>
             <h5>
               <a
                 href="https://burgerhouse-iota.vercel.app/"

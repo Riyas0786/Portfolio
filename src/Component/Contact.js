@@ -11,11 +11,11 @@ function Portfolio() {
 
         <div className="d-flex flex-column align-items-center gap-3">
           {/* Email */}
-          <div className="contact-card d-flex align-items-center fs-3 gap-2 ">
+          <div className="contact-card d-flex align-items-center justify-content-center  gap-2 ">
             <i className="bi bi-envelope-fill fs-4 text-warning"></i>
             <a
               href="mailto:riyaskhanm2001@gmail.com"
-              className="text-decoration-none fs-5 text-white"
+              className="text-decoration-none  text-white"
             >
               riyaskhanm2001@gmail.com
             </a>
