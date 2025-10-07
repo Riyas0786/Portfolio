@@ -3,12 +3,13 @@ html,body {
   margin: 0;
   padding: 0;
   overflow-x: hidden; 
+  scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
   color: #000000;
   background-image: url("Assets/backgroundimg.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-size: cover;
 }
 .navbar {
@@ -58,8 +59,9 @@ html,body {
   backdrop-filter: blur(8px);
   border-radius: 14px;
   padding: 20px;
-  margin: 20px auto;
+  
   transition: transform 0.3s ease-in-out;
+  border: 1px solid rgba(26, 152, 236, 0.568);
 }
 
 .project-card:hover,
@@ -67,13 +69,12 @@ html,body {
 .contact-card:hover,
 .about-card:hover {
   transform: translateY(-6px);
-  border: 1px solid rgba(26, 152, 236, 0.384);
   box-shadow: 0 6px 6px 2px rgba(17, 145, 230, 0.479);
 }
 
 @media (max-width: 768px) {
  
   .navlinks {
-    gap: 15px; /* prevents wrapping issues */
+    gap: 15px; 
   }
 }

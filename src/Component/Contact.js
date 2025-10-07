@@ -5,13 +5,13 @@ function Portfolio() {
   return (
     <div>
 
-      <section id="contact" className="container contact-card my-5">
+      <section id="contact" className="container contact-card mb-3 ">
         <h2 className="section-heading text-center text-warning">Contact Me</h2>
 
 
         <div className="d-flex flex-column align-items-center gap-3">
           {/* Email */}
-          <div className="contact-card d-flex align-items-center justify-content-center  gap-2 ">
+          <div className="contact-card d-flex align-items-center justify-content-center mt-3  gap-2 ">
             <i className="bi bi-envelope-fill fs-4 text-warning"></i>
             <a
               href="mailto:riyaskhanm2001@gmail.com"
